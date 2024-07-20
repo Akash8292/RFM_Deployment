@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RFM Analysis</title>
+</head>
+<body>
+    <h1>RFM Analysis Results</h1>
+    <div>
+        <h2>RFM Value Segment Distribution</h2>
+        {{ graph1|safe }}
+    </div>
+    <div>
+        <h2>Comparison of RFM Segments</h2>
+        {{ graph2|safe }}
+    </div>
+    <div>
+        <h2>Comparison of RFM Segments based on Scores</h2>
+        {{ graph3|safe }}
+    </div>
+    <div>
+        <h2>Average CLTV for Lost Segment</h2>
+        {{ graph4|safe }}
+    </div>
+    <div>
+        <h2>New Distribution of RFM Segments after Re-engagement</h2>
+        {{ graph5|safe }}
+    </div>
+</body>
+</html>
